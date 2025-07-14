@@ -13,3 +13,39 @@ def pregunta_01():
     El archivo limpio debe escribirse en "files/output/solicitudes_de_credito.csv"
 
     """
+    import pandas as pd
+    import os
+
+    # Cargar el archivo CSV
+    df = pd.read_csv("files/input/solicitudes_de_credito.csv", sep=";", index_col=0)
+    
+    # Eliminar filas con datos faltantes
+    df.dropna(inplace=True)
+
+    # Dar formato a los valores monetarios
+    df["monto_del_credito"] = df["monto_del_credito"].str.strip(" $").str.replace(r"\.00$", "", regex=True).str.replace(r"[,.]", "", regex=True).astype(int)
+    
+    # Dar formato a las columnas de texto
+    for col in df.select_dtypes(include=['object']):
+            df[col] = df[col].str.strip(" .,-_").str.lower().str.replace(r"[-,.; ]", '_', regex=True)
+
+    # Dar formato a las fechas  
+    df["fecha_de_beneficio"] = pd.to_datetime(
+        df["fecha_de_beneficio"], format="%d/%m/%Y", errors="coerce"
+    ).combine_first(
+        pd.to_datetime(df["fecha_de_beneficio"], format="%Y/%m/%d", errors="coerce")
+    )
+
+    # Eliminar registros duplicados
+    df.drop_duplicates(inplace=True)
+
+    print(df.barrio.value_counts().head(75))
+
+    # Crear el directorio de salida si no existe
+    os.makedirs("files/output", exist_ok=True)
+
+    # Guardar el DataFrame limpio en un nuevo archivo CSV
+    df.to_csv("files/output/solicitudes_de_credito.csv", sep=';', index=False)
+
+if __name__ == "__main__":
+    pregunta_01()
