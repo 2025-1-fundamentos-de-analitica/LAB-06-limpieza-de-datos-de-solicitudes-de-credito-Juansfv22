@@ -3585,7 +3585,7 @@ masculino;industria;fabrica_de;el_salvador;3;9.0;2016-08-18;6890000;microempresa
 femenino;comercio;distribuidora_de;robledo;2;7.0;2019-01-25;3000000;microempresarial
 femenino;industria;fabrica_de;belencito;1;13.0;2018-07-06;3500000;microempresarial
 masculino;comercio;montallantas;villa_del_socorro;2;2.0;2016-09-22;2000000;microempresarial
-masculino;industria;fabrica_de_calzado;san_jose_de_la_cima_no;1;3.0;2016-11-22;1000000;microempresarial
+masculino;industria;fabrica_de_calzado;san_jose_de_la_cima_no_;1;3.0;2016-11-22;1000000;microempresarial
 femenino;industria;fabrica_de;castilla;3;5.0;2018-02-15;4000000;microempresarial
 femenino;comercio;fabrica_de_alimentos;robledo;2;7.0;2018-07-30;7000000;microempresarial
 femenino;comercio;variedades;jesus_nazareno;3;10.0;2017-06-28;5000000;microempresarial
@@ -4292,7 +4292,7 @@ masculino;servicio;recreativo_educativo;popular;2;1.0;2017-10-24;7300000;microem
 femenino;comercio;almacen_de_ropa_en;manrique_central_no__2;2;3.0;2016-11-23;6890000;microempresarial
 masculino;industria;taller_de_electronica;campo_valdes_no__1;3;4.0;2017-06-27;6000000;microempresarial
 masculino;servicio;tienda;alfonso_lopez;3;5.0;2019-02-27;6500000;microempresarial
-masculino;comercio;comidas_rapidas;san_jose_de_la_cima_no;2;3.0;2018-04-04;5000000;microempresarial
+masculino;comercio;comidas_rapidas;san_jose_de_la_cima_no_;2;3.0;2018-04-04;5000000;microempresarial
 masculino;servicio;barberia;girardot;3;5.0;2016-05-10;6800000;microempresarial
 masculino;comercio;variedades;santa_cruz;2;2.0;2017-09-27;7000000;microempresarial
 masculino;comercio;restaurante;castilla;3;5.0;2017-04-28;7377000;microempresarial
@@ -5311,7 +5311,7 @@ femenino;industria;fabrica_de;cabecera_san_antonio;3;80.0;2019-06-13;6750000;mic
 femenino;comercio;miscelanea;tejelo;3;5.0;2018-07-10;7800000;microempresarial
 femenino;industria;fabrica_de;20_de_julio;2;13.0;2016-06-24;6800000;microempresarial
 masculino;agropecuaria;floristeria;cabecera_san_cristobal;2;60.0;2017-03-07;7377000;microempresarial
-femenino;industria;fabrica_de;el_salado;1;80.0;2016-08-19;6300000;microempresarial
+femenino;industria;fabrica_de;el_salado_;1;80.0;2016-08-19;6300000;microempresarial
 femenino;comercio;variedades;picacho;1;6.0;2018-05-18;5000000;microempresarial
 femenino;industria;fabrica_de;manrique_central_no__1;2;4.0;2016-11-08;6890000;microempresarial
 femenino;industria;fabrica_de;robledo;1;7.0;2016-07-27;3000000;microempresarial
@@ -7614,7 +7614,7 @@ masculino;servicio;mantenimiento_en;centro_admtivo;2;10.0;2018-02-20;6000000;mic
 masculino;servicio;peluqueria;sucre;3;8.0;2017-12-29;5000000;microempresarial
 femenino;servicio;comidas_rapidas;santo_domingo_savio;2;1.0;2016-02-18;6440500;microempresarial
 masculino;servicio;barberia;belencito;2;13.0;2016-10-28;6800000;microempresarial
-masculino;comercio;variedades;el_salado;1;80.0;2016-07-14;6890000;microempresarial
+masculino;comercio;variedades;el_salado_;1;80.0;2016-07-14;6890000;microempresarial
 masculino;comercio;papeleria;santo_domingo_savio;1;1.0;2018-06-07;5700000;microempresarial
 femenino;servicio;peluqueria;guayabal;3;15.0;2018-03-15;7800000;microempresarial
 femenino;comercio;almacen_de_ropa_en;san_javier_no_1;3;13.0;2018-04-24;3500000;microempresarial
@@ -9805,7 +9805,7 @@ femenino;servicio;peluqueria;manrique_oriental;1;3.0;2017-02-03;7377000;microemp
 masculino;comercio;tienda;villa_hermosa;2;8.0;2018-10-24;3000000;microempresarial
 masculino;comercio;cafeteria;belen;3;16.0;2018-09-14;7800000;microempresarial
 masculino;industria;fabrica_de;belen;3;16.0;2017-06-27;7000000;microempresarial
-femenino;servicio;fabrica_de;san_jose_de_la_cima_no;1;3.0;2018-09-14;3000000;microempresarial
+femenino;servicio;fabrica_de;san_jose_de_la_cima_no_;1;3.0;2018-09-14;3000000;microempresarial
 femenino;industria;fabrica_de;20_de_julio;2;13.0;2017-10-19;6000000;microempresarial
 femenino;industria;fabrica_de;manrique_central_no__1;3;4.0;2018-05-11;5000000;microempresarial
 masculino;comercio;variedades;villa_hermosa;2;8.0;2017-01-11;6000000;microempresarial

@@ -39,13 +39,17 @@ def pregunta_01():
     # Eliminar registros duplicados
     df.drop_duplicates(inplace=True)
 
-    print(df.barrio.value_counts().head(75))
+    # CORREGIR ERRORES DEL EJERCICIO
+    df.iloc[[3586, 4293, 9806], df.columns.get_loc("barrio")] = "san_jose_de_la_cima_no_"
+    df.iloc[[5312, 7615], df.columns.get_loc("barrio")] = "el_salado_"
 
     # Crear el directorio de salida si no existe
     os.makedirs("files/output", exist_ok=True)
 
     # Guardar el DataFrame limpio en un nuevo archivo CSV
     df.to_csv("files/output/solicitudes_de_credito.csv", sep=';', index=False)
+
+    return df
 
 if __name__ == "__main__":
     pregunta_01()
